@@ -1,0 +1,32 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "PipelineDigest acts as the data-acquisition layer for multi-agent systems or automated quality engineering reporting. By processing and organizing raw DevOps noise into clear Markdown profiles, it creates a structured knowledge repository that AI agent skills can instantly digest to prioritize daily engineering actions",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/777abhi/pipeline-digest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/777abhi/pipeline-digest/issues"
+  },
+  "homepage": "https://github.com/777abhi/pipeline-digest#readme",
+  "dependencies": {
+    "azure-devops-node-api": "^15.1.2",
+    "dotenv": "^17.4.2",
+    "strip-ansi": "^6.0.1",
+    "yaml": "^2.9.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}

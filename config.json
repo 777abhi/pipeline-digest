@@ -1,0 +1,14 @@
+{
+  "projects": [
+    {
+      "name": "ProjectAlpha",
+      "pipelines": [
+        {
+          "pipelineId": 10,
+          "name": "Nightly Build",
+          "targetBranch": "refs/heads/main"
+        }
+      ]
+    }
+  ]
+}
